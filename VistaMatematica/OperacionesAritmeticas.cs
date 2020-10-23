@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Math;
 
 namespace VistaMatematica
 {
@@ -26,10 +25,9 @@ namespace VistaMatematica
             }
             else
             {
-                var resultado = Math.Aritmetica.SumaDosNumerosEnteros(Convert.ToInt32(txtValor1.Text), Convert.ToInt32(txtValor2.Text));
-                lblResultado.Text = String.Format("Resultado = {0} ", resultado);
-               
-                
+             //   var resultado = Math.Aritmetica.SumaDosNumerosEnteros(Convert.ToInt32(txtValor1.Text), Convert.ToInt32(txtValor2.Text));
+              //  lblResultado.Text = String.Format("Resultado = {0} ", resultado);
+                              
             }
         }
     }
